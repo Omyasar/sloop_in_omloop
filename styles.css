@@ -8,6 +8,34 @@ body {
     height: 100vh;
 }
 
+h1 {
+    position: relative;
+}
+
+#logo__title::before {
+    /* content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 1px;
+    width: 15rem;
+    height: 2rem;
+    transform: skew(-100deg) translateX(-15%);
+    background-color: #D9D9D9;
+    z-index: -1; */
+    /* Add these settings if you want to display the underline in a straight block */
+    /*
+        content: "";
+        position: absolute;
+        left: 7%;
+        bottom: 1.2rem;
+        width: 17.5rem;
+        height: 2rem;
+        transform: skew(-180deg) translateX(0%);
+        background-color: #D9D9D9;
+        z-index: -1;
+    */
+}
+
 .welcome__section {
     display: flex;
     padding: 10rem;
@@ -17,12 +45,12 @@ body {
     font-weight: 800;
     /* width: 33rem; */
     border-bottom: 1.5rem solid #D9D9D9;
-    line-height: 0.1rem;
+    line-height: 0.0015rem; 
 }
 
 .background__image {
     background-color: #D9D9D9;
-    margin: 0 5rem;
+    margin-left: 35rem;
     padding: 10rem;
 }
 
@@ -65,10 +93,59 @@ body {
     padding-top: 5rem;
 }
 
+nav {
+    display: flex;
+}
+
+.logo__header {
+    display: flex;
+}
+
+.logo__header > h1 {
+    padding: 2.5rem 0 1rem 1.5rem;
+}
+
+.logo__header > img {
+    padding-left: 4rem;
+}
+
+.navbar__items {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12.5rem;
+}
+
 li {
     list-style: none;
     font-weight: 600;
+    display: inline;
+    margin-right: 2rem;
     /* text-decoration: underline;
     text-decoration-color: #FF6B00;
     text-decoration-thickness: 1.5rem; */
+}
+
+a {
+    text-decoration: none;
+    box-sizing: inset 0 -2px 0 rgba(217, 217, 217), 0 2px 0 rgba(217, 217, 217);
+    transition: box-shadow .3s;
+    color: inherit;
+    overflow: hidden;
+}
+
+a:hover {
+    box-shadow: inset 0 -30px 0 rgba(217, 217, 217), 0 2px 0 rgba(217, 217, 217);
+}
+
+.footer__section {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer__section p {
+    margin: 0;
+}
+
+#mail__href, #github__href {
+    border-bottom: 0.25rem solid #D9D9D9;
 }

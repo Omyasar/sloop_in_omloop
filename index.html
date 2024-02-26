@@ -10,7 +10,7 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="styles.css">
 
@@ -18,24 +18,30 @@
 </head>
 <body>
     <div class="header">
-        <nav>
-            <h1><i class="fa-solid fa-hammer"></i>Sloop In Omloop</h1>
-            <ul>
-                <li>Werkzaamheden</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <!-- <nav> -->
+            <div class="logo__header">
+                <img src="img/hammer-break.svg" alt="Sloop In Omloop Logo">
+                <h1 id="logo__title"><a href="#welcome__section">Sloop In Omloop</a></h1>
+            </div>
+            <div class="navbar__items">
+                <ul>
+                    <li><a href="#werkzaamheden__content">Werkzaamheden</a></li>
+                    <li><a href="#contact__section">Contact</a></li>
+                </ul>
+            </div>
+        <!-- </nav> -->
     </div>
-    <div class="welcome__section">
+    <div class="welcome__section" id="welcome__section">
         <div class="text__content">
-            <h1 class="welcome__text">Uw personeelsverhuurder voor al uw sloopwerkzaamheden</h1>
+            <h1 class="welcome__text">Uw personeelsverhuurder voor</h1>
+            <h1 class="welcome__text"> al uw sloopwerkzaamheden</h1>
         </div>
         <div class="background__image">
             <i class="fa-solid fa-helmet-safety fa-bounce fa-3x"></i>
             <!-- <i class="fa-solid fa-helmet-safety fa-bounce fa-5x"></i> -->
         </div>
     </div>
-    <div class="werkzaamheden__content">
+    <div class="werkzaamheden__content" id="werkzaamheden__content">
         <div class="werkzaamheden__content__header">
             <h1>Werkzaamheden</h1>
         </div>
@@ -58,10 +64,16 @@
             </div>
         </div>
     </div>
-    <div class="contact__section">
-        <h1>Contact</h1>
+    <div class="contact__section" id="contact__section">
+        <h1 id="contact__header">Contact</h1>
         <p>Heeft u vragen of wilt u in contact met ons komen?</p>
-        <p>Dat kan! Stuur een mail naar info@sloopinomloop.nl</p>
+        <p>Dat kan! Stuur een mail naar <a href="mailto:info@sloopinomloop.nl" id="mail__href">info@sloopinomloop.nl</a></p>
     </div>
+    <footer>
+        <div class="footer__section">
+            <p>© 2024 Sloop In Omloop. Alle rechten voorbehouden</p>
+            <p>Designed and coded by <a href="https://github.com/https://github.com/Design-and-Codes" id="github__href">@Design-and-Codes</a></p>
+        </div>
+    </footer>
 </body>
 </html>
