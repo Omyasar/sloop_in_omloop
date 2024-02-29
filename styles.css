@@ -13,27 +13,15 @@ h1 {
 }
 
 #logo__title::before {
-    /* content: "";
+    content: "";
     position: absolute;
-    right: 5%;
-    bottom: 1px;
-    width: 15rem;
-    height: 2rem;
-    transform: skew(-100deg) translateX(-15%);
+    left: 7%;
+    bottom: 1.25rem;
+    width: 17.5rem;
+    height: 2.5rem;
+    transform: skew(-180deg) translateX(0%);
     background-color: #D9D9D9;
-    z-index: -1; */
-    /* Add these settings if you want to display the underline in a straight block */
-    /*
-        content: "";
-        position: absolute;
-        left: 7%;
-        bottom: 1.2rem;
-        width: 17.5rem;
-        height: 2rem;
-        transform: skew(-180deg) translateX(0%);
-        background-color: #D9D9D9;
-        z-index: -1;
-    */
+    z-index: -1;   
 }
 
 .welcome__section {
@@ -139,9 +127,6 @@ li {
     font-weight: 600;
     display: inline;
     margin-right: 2rem;
-    /* text-decoration: underline;
-    text-decoration-color: #FF6B00;
-    text-decoration-thickness: 1.5rem; */
 }
 
 a {
