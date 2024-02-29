@@ -82,6 +82,12 @@ h1 {
     display: flex;
 }
 
+.werkzaamheden__content__sections__section {
+    margin: 1rem;
+    padding: 3rem;
+    width: 33%;
+}
+
 .contact__section {
     display: grid;
     text-align: center;
