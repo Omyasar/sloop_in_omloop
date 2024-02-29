@@ -63,13 +63,22 @@ h1 {
     padding: 7rem 3rem;
 }
 
-.werkzaamheden__content h1 {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #FF6B00;
-    text-decoration-thickness: 1.5rem;
-    /* border-bottom: 1.5rem solid #FF6B00; */
-    line-height: 0.1rem;
+.werkzaamheden__content__header {
+    z-index: 0;
+}
+
+#werkzaamheden__title {
+    color: #00000;
+}
+
+#werkzaamheden__title::before {
+    content: "";
+    position: absolute;
+    width: 18rem;
+    height: 3rem;
+    transform: skew(-180deg) translateX(0%);
+    background-color: #FF6B00;
+    z-index: -1;
 }
 
 .werkzaamheden__content__sections i {
@@ -91,6 +100,16 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
+}
+
+#contact__header::before {
+    content: "";
+    position: absolute;
+    width: 8.5rem;
+    height: 3rem;
+    transform: skew(-180deg) translateX(0%);
+    background-color: #D9D9D9;
+    z-index: -1;
 }
 
 nav {
