@@ -46,8 +46,8 @@ h1 {
 
 .background__image {
     background-color: #D9D9D9;
-    margin-left: 35rem;
-    padding: 10rem;
+    margin: auto 0 auto auto;
+    padding: 10rem 5rem;
 }
 
 .werkzaamheden__content {
