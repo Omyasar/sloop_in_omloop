@@ -76,9 +76,34 @@
         </div>
     </div>
     <div class="contact__section" id="contact__section">
-        <h1 id="contact__header">Contact</h1>
-        <p>Heeft u vragen of wilt u in contact met ons komen?</p>
-        <p>Dat kan! Stuur een mail naar <a href="mailto:info@sloopinomloop.nl" target="_blank" rel="no-referrer noopener" class="hover" id="mail__href">info@sloopinomloop.nl</a></p>
+        <div>
+            <h1 id="contact__header">Contact</h1>
+            <p>Heeft u vragen of wilt u in contact met ons komen?</p>
+            <p>Dat kan! Stuur een mail naar <a href="mailto:info@sloopinomloop.nl" target="_blank" rel="no-referrer noopener" class="hover" id="mail__href">info@sloopinomloop.nl</a></p>
+        </div>
+        <div class="form">
+            <form action="my-handling-form-page" method="post">
+                <div>
+                    <div class="form__flex">
+                        <label for="name">Voornaam</label>
+                        <input type="text" name="user__name" id="name">
+                        <label for="lastname">Achternaam</label>
+                        <input type="text" name="user__lastname" id="lastname">
+                    </div>
+                    <div class="form__flex">
+                        <label for="phonenumber">Telefoonnummer</label>
+                        <input type="phone" name="user__number" id="phonenumber">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="user__email" id="email">
+                    </div>
+                    <div class="form__grid">
+                        <label for="msg">Uw bericht</label>
+                        <textarea name="user__message" id="msg" cols="30" rows="10"></textarea>
+                        <button type="submit" id="submit__button">Verzenden</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
     <footer>
         <div class="footer__section">
