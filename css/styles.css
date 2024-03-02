@@ -64,7 +64,7 @@ h1 {
 }
 
 #werkzaamheden__title {
-    color: #00000;
+    color: #000000;
 }
 
 #werkzaamheden__title::before {
@@ -172,11 +172,11 @@ a {
 .form__grid {
     display: grid;
     padding: 1rem;
-    /* justify-content: baseline; */
 }
 
 label {
     font-weight: bold;
+    text-align: left;
 }
 
 input, textarea {
@@ -186,6 +186,7 @@ input, textarea {
 input[placeholder] {
     font-family: inherit;
     font-size: 1rem;
+    font-weight: 500;
     color: #ffffff;
 }
 
