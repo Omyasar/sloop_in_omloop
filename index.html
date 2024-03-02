@@ -85,20 +85,28 @@
             <form action="my-handling-form-page" method="post">
                 <div>
                     <div class="form__flex">
-                        <label for="name">Voornaam</label>
-                        <input type="text" name="user__name" id="name">
-                        <label for="lastname">Achternaam</label>
-                        <input type="text" name="user__lastname" id="lastname">
+                        <div class="form__grid">
+                            <label for="name">Voornaam</label>
+                            <input type="text" name="user__name" id="name" placeholder="Vul hier uw voornaam in">
+                        </div>
+                        <div class="form__grid">
+                            <label for="lastname">Achternaam</label>
+                            <input type="text" name="user__lastname" id="lastname" placeholder="Vul hier uw achternaam in">
+                        </div>
                     </div>
                     <div class="form__flex">
-                        <label for="phonenumber">Telefoonnummer</label>
-                        <input type="phone" name="user__number" id="phonenumber">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="user__email" id="email">
+                        <div class="form__grid">
+                            <label for="phonenumber">Telefoonnummer</label>
+                            <input type="phone" name="user__number" id="phonenumber" placeholder="Vul hier uw telefoonnummer in">
+                        </div>
+                        <div class="form__grid">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="user__email" id="email" placeholder="Vul hier uw emailadres in">
+                        </div>
                     </div>
                     <div class="form__grid">
                         <label for="msg">Uw bericht</label>
-                        <textarea name="user__message" id="msg" cols="30" rows="10"></textarea>
+                        <textarea name="user__message" id="msg" cols="30" rows="10" placeholder="Uw bericht"></textarea>
                         <button type="submit" id="submit__button">Verzenden</button>
                     </div>
                 </div>
