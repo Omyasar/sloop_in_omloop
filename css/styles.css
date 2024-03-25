@@ -2,220 +2,44 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: #FF6B00;
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
     height: 100vh;
 }
 
 h1 {
-    position: relative;
-}
-
-#logo__title::before {
-    content: "";
+    text-transform: uppercase;
+    font-size: 10rem;
     position: absolute;
-    left: 7%;
-    bottom: 1.25rem;
-    width: 17.5rem;
-    height: 2.5rem;
-    transform: skew(-180deg) translateX(0%);
-    background-color: #D9D9D9;
-    z-index: -1;   
+    right: 15%;
+    text-align: right;
 }
 
-.welcome__section {
-    display: flex;
+.container {
     padding: 10rem;
 }
 
-.welcome__text {
-    font-weight: 800;
-    margin: 0;
+.hero__section {
+    position: relative;
 }
 
-.welcome__text::before {
-    content: "";
+
+.footer {
     position: absolute;
-    bottom: 0.12rem;
-    width: 100%;
-    height: 2.2rem;
-    background-color: #D9D9D9;
-    z-index: -1;
 }
 
-.background__image {
-    background-color: #D9D9D9;
-    margin: auto 0 auto auto;
-    padding: 10rem 5rem;
-}
-
-.werkzaamheden__content {
-    background-color: #000000;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 7rem 3rem;
-}
-
-.werkzaamheden__content__header {
-    z-index: 0;
-}
-
-#werkzaamheden__title {
-    color: #000000;
-}
-
-#werkzaamheden__title::before {
-    content: "";
+#explanation__text {
+    text-transform: uppercase;
     position: absolute;
-    width: 18rem;
-    height: 3rem;
-    transform: skew(-180deg) translateX(0%);
-    background-color: #FF6B00;
-    z-index: -1;
+    font-weight: bold;
+    text-align: right;
 }
 
-.werkzaamheden__content__sections i {
-    color: #333333;
-}
-
-.werkzaamheden__content__sections p {
-    color: #D9D9D9;
-    font-size: 1.1rem;
-}
-
-.werkzaamheden__content__sections__flex {
-    display: flex;
-}
-
-.werkzaamheden__content__sections__section {
-    margin: 1rem;
-    padding: 3rem;
-    width: 33%;
-}
-
-.contact__section {
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-}
-
-#contact__header::before {
-    content: "";
+#brick__image {
     position: absolute;
-    width: 8.5rem;
-    height: 3rem;
-    transform: skew(-180deg) translateX(0%);
-    background-color: #D9D9D9;
-    z-index: -1;
-}
-
-nav {
-    display: flex;
-}
-
-.logo__header {
-    display: flex;
-}
-
-.logo__header > h1 {
-    padding: 2.5rem 0 1rem 1.5rem;
-}
-
-.logo__header > img {
-    padding-left: 4rem;
-}
-
-.navbar__items {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 12.5rem;
-}
-
-li {
-    list-style: none;
-    font-weight: 600;
-    display: inline;
-    margin-right: 2rem;
-}
-
-a {
-    text-decoration: none;
-    box-sizing: inset 0 -2px 0 rgba(217, 217, 217), 0 2px 0 rgba(217, 217, 217);
-    transition: box-shadow .3s;
-    color: inherit;
-    overflow: hidden;
-}
-
-.hover:hover {
-    box-shadow: inset 0 -40px 0 rgba(217, 217, 217), 0 2px 0 rgba(217, 217, 217);
-}
-
-.contact__section p, .footer__section p {
-    margin: 0;
-}
-
-.form {
-    margin-top: 2rem;
-}
-
-.form__flex {
-    display: flex;
-    margin: 1rem;
-    padding: 10px;
-}
-
-.form__grid {
-    display: grid;
-    padding: 1rem;
-}
-
-label {
-    font-weight: bold;
-    text-align: left;
-}
-
-input, textarea {
-    font-family: 'Poppins', sans-serif;
-}
-
-input[placeholder] {
-    font-family: inherit;
-    font-size: 1rem;
-    color: #ffffff;
-}
-
-input {
-    border: none;
-    outline: none;
-    border-bottom: 0.2rem solid #000;
-    background-color: #FF6B00;
-    color: #ffffff;
-}
-
-#submit__button {
-    margin: 1rem 0;
-    background-color: #000000;
-    color: #ffffff;
-    border: none;
-    width: 10rem;
-    height: 2rem;
-    font-family: inherit;
-    font-weight: bold;
-}
-
-.footer__section {
-    margin: 5rem 0 2.5rem;
-    text-align: center;
-    font-weight: bold;
-}
-
-#mail__href, #github__href {
-    border-bottom: 0.25rem solid #D9D9D9;
+    width: 900px;
+    height: 900px;
 }
 
 ::-webkit-scrollbar {

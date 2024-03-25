@@ -2,122 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/media-queries.css">
 
     <title>Sloop In Omloop</title>
 </head>
 <body>
-    <div class="header">
-        <!-- <nav> -->
-            <div class="logo__header">
-                <img src="img/hammer-break.svg" alt="Sloop In Omloop Logo">
-                <h1 id="logo__title"><a href="#welcome__section">Sloop In Omloop</a></h1>
-            </div>
-            <div class="navbar__items">
-                <ul>
-                    <li><a href="#werkzaamheden__content" class="hover">Werkzaamheden</a></li>
-                    <li><a href="#contact__section" class="hover">Contact</a></li>
-                </ul>
-            </div>
-        <!-- </nav> -->
+    <div class="hero__section container">
+        <img src="img/Brick-1.png" alt="Brick" id="brick__image">
+        <h1>Demolotion in circulation*</h1>
     </div>
-    <div class="welcome__section" id="welcome__section">
-        <div class="text__content">
-            <h1 class="welcome__text">Uw personeelsverhuurder voor</h1>
-            <h1 class="welcome__text"> al uw sloopwerkzaamheden</h1>
-        </div>
-        <div class="background__image">
-            <img src="img/workers-image.svg" alt="workers image">
-        </div>
+    <div class="container">
+        <p id="explanation__text">*Vertaling van ons bedrijf genaamd Sloop in Omloop</p>
     </div>
-    <div class="werkzaamheden__content" id="werkzaamheden__content">
-        <div class="werkzaamheden__content__header">
-            <h1 id="werkzaamheden__title">Werkzaamheden</h1>
-        </div>
-        <div class="werkzaamheden__content__sections">
-            <div class="werkzaamheden__content__sections__flex">
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-people-group fa-3x"></i>
-                    <p>Wij regelen personeel voor u. Onze mannen van jong tot oud staan voor u klaar.</p>
-                </div>
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-house-crack fa-3x"></i>
-                    <p>Moet uw woning gestript worden? Dat kunnen wij wel aan.</p>
-                </div>
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-house-chimney fa-3x"></i>
-                    <p>Schoorstenen verwijderen en overigens het slopen van uw dak.</p>
-                </div>
-            </div>
-            <div class="werkzaamheden__content__sections__flex">
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-sink fa-3x"></i>
-                    <p>Wilt u uw oude badkamer weg hebben? Dan kunnen wij uw badkamer verwijderen.</p>
-                </div>
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-square fa-3x"></i>
-                    <p>Als u uw vloer wilt weghalen kunnen onze mannen daarvoor zorgen.</p>
-                </div>
-                <div class="werkzaamheden__content__sections__section">
-                    <i class="fa fa-hive fa-3x"></i>
-                    <p>Moeten uw tegels en sanitair worden verwijderd? Dan doen we dat ook.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="contact__section" id="contact__section">
-        <div>
-            <h1 id="contact__header">Contact</h1>
-            <p>Heeft u vragen of wilt u in contact met ons komen?</p>
-            <p>Dat kan! Stuur een mail naar <a href="mailto:info@sloopinomloop.nl" target="_blank" rel="no-referrer noopener" class="hover" id="mail__href">info@sloopinomloop.nl</a></p>
-        </div>
-        <div class="form">
-            <form action="my-handling-form-page" method="post" name="contact">
-                <div>
-                    <div class="form__flex">
-                        <div class="form__grid">
-                            <label for="name">Voornaam</label>
-                            <input type="text" name="user__name" id="name" placeholder="Vul hier uw voornaam in">
-                        </div>
-                        <div class="form__grid">
-                            <label for="lastname">Achternaam</label>
-                            <input type="text" name="user__lastname" id="lastname" placeholder="Vul hier uw achternaam in">
-                        </div>
-                    </div>
-                    <div class="form__flex">
-                        <div class="form__grid">
-                            <label for="phonenumber">Telefoonnummer</label>
-                            <input type="phone" name="user__number" id="phonenumber" placeholder="Vul hier uw telefoonnummer in">
-                        </div>
-                        <div class="form__grid">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="user__email" id="email" placeholder="Vul hier uw emailadres in">
-                        </div>
-                    </div>
-                    <div class="form__grid">
-                        <label for="msg">Uw bericht</label>
-                        <textarea name="user__message" id="msg" cols="30" rows="10" placeholder="Typ hier uw bericht..."></textarea>
-                        <button type="submit" id="submit__button">Verzenden</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <div>
+        <h2>Mission</h2>
+        <p>Our mission is to make sure that you get manpower delivered for your demolition work.</p>
     </div>
     <footer>
-        <div class="footer__section">
+        <div class="footer container">
             <p>© 2024 Sloop In Omloop. Alle rechten voorbehouden</p>
-            <p>Designed and coded by <a href="https://github.com/Design-and-Codes" target="_blank" rel="no-referrer noopener" class="hover" id="github__href">@Design-and-Codes</a></p>
+            <p>Designed and coded by <a href="https://github.com/Design-and-Codes" target="_blank" rel="no-referrer noopener" class="" id="github__href">@Design-and-Codes</a></p>
         </div>
     </footer>
 </body>
