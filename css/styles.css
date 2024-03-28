@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 5rem;
     padding: 0;
 
     background-color: #1E1E1E;
@@ -16,17 +16,82 @@ h1 {
     text-align: right;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+}
+
+nav a, 
+nav p, 
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+}
+
 .container {
+    display: block;
+    margin-top: 3rem;
     padding: 10rem;
+}
+
+.content {
+    display: flex;
+}
+
+.mission__text__content {
+    margin: 0 10rem 0 2rem;
+}
+
+.about__us__text__content {
+    margin: 0 2rem 0 10rem;
 }
 
 .hero__section {
     position: relative;
+    margin-bottom: 30rem;
+    padding-left: 1rem;
 }
 
+.contact__text p {
+    line-height: 0;
+}
 
 .footer {
     position: absolute;
+}
+
+.footer p {
+    font-size: larger;
+    line-height: 0.2rem;
 }
 
 #explanation__text {
@@ -40,6 +105,16 @@ h1 {
     position: absolute;
     width: 900px;
     height: 900px;
+}
+
+#hole__inside__wall__image {
+    width: 400px;
+    height: 550px;
+}
+
+#person__walking__on__top__image {
+    width: 450;
+    height: 500px;
 }
 
 ::-webkit-scrollbar {
